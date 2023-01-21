@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .anasayfa
+        {
+            float: left;
+            border: 1px solid black;
+            width: 800px;
+            height: 1000px;
+            margin-left: 450px;
+        }
+        #baslik
+        {
+            float: left;
+            width: 798px;
+            height: 50px;
+        }
+        .sayfa1
+        {
+            float: left;
+            border:1px solid black;
+            width: 750px;
+            height:80px;
+            margin-left:11px;
+            margin-top:10px;
+        }
+        .sayfa2
+        {
+            float: left;
+            border:1px solid black;
+            width: 750px;
+            height:130px;
+            margin-left:11px;
+            margin-top:10px;
+
+        }
+        .sayfa3
+        {
+            float: left;
+            border:1px solid black;
+            width: 750px;
+            height:250px;
+            margin-left:11px;
+            margin-top:10px;
+        }
+
+        .sayfa4
+        {
+            float: left;
+            border:1px solid black;
+            width: 750px;
+            height:250px;
+            margin-left:11px;
+            margin-top:10px;
+        }
+        .sayfa5
+        {
+            float: left;
+            border:1px solid black;
+            width:750px;
+            height:70px;
+            margin-left:11px;
+            margin-top:10px;
+        }
+        .input
+        {
+            position: relative;
+           
+            width: 180px;
+            height: 110px;
+            left: 135px;
+            top: -97px;
+           
+        }
+        .icerik
+        {
+            position: relative;
+           
+            width: 130px;
+            height: 80px;
+            left: 120px;
+            top: -18px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+
+        <div class="anasayfa">
+            <div id="baslik">
+                <b style="margin-left: 20px; margin-top:12px; float: left; font-size:30px;" >KURULUM VE SATIŞ SÖZLEŞMESİ</b>
+            </div>
+        
+            <fieldset class="sayfa1"><legend>Sözleşme Onayı</legend>
+                <input type="checkbox" name="sözlesme" id="üst" >
+                <label for="sözlesme"> Aşagıdaki sözleşmeyi okudum ve onaylıyorum</label> <br>
+                <input type="submit" value="Formu Gönder">
+                <input type="reset" value="Formu Temizle">
+            </fieldset>
+
+            <div class="kişiselbilgi">
+            <fieldset class="sayfa2"><legend>Kişisel Bilgiler</legend>
+                <div>
+                     <label for="güvenlik">Form Güvenlik İD</label><br>
+                     <label for="ad" >AD:</label><br>
+                     <label for="Soyad" >SOYİSİM:</label><br>
+                     <label for="Soyad" >YAŞ:</label><br>
+                    <label for="Soyad" >E mail:</label>
+                </div>
+               <div class="input" >
+                <input type="text" name="güvenlik" id="güvenlik" placeholder="xtre857"style="font-size:13px;"><br>
+                <input type="text" name="ad" id="ad" placeholder="adinizi girin:" style="font-size:13px;"><br>
+                <input type="text" name="soyad" id="soyad" placeholder="soyisminizi girin:" style="font-size:13px;"><br>
+                <input type="text" name="yas" id="yas" style="width: 50px;" style="font-size:13px;"><br>
+               <input type="email" name="email" id="email" style="font-size:13px;">
+               </div>
+            </fieldset>
+            </div>
+
+            <fieldset class="sayfa3"><legend>Diğer Bilgiler</legend>
+                <label for="">Buradaki alanlar mesleki deneyimi kapsar</label><br><br>
+                <label for="tarih">Sektöre giriş tarihi</label>
+                <input type="date" name="tarih" id="tarih"><br><br>
+
+                <label for="yil">Sektör Deneyimi:</label><br>
+                
+
+                <div class="icerik">
+                <input type="radio" name="yil" id="yil">
+                <label for="yil">1-5 yıl</label><br>
+                <input type="radio" name="yil" id="yil" >
+
+                <label for="yil">6-10 yıl</label><br>
+                <input type="radio" name="yil" id="yil">
+
+                <label for="yil">11-15 yıl</label><br>
+                <input type="radio" name="yil" id="yil">
+
+                <label for="yil">15 yıl ve üzeri</label><br>
+           
+                </div>
+               
+                <label for="diller">Programlama Diller</label>
+
+                <select name="diller" id="diller" size="3">
+                    <option value="C++">C++</option>
+                    <option value="python">python</option>
+                    <option value="java">Java</option>
+                   
+                </select>
+                
+
+             </fieldset>    
+            
+             <fieldset class="sayfa4"><legend>Sözleşme Kopyası</legend>
+                    <textarea name="" id="" cols="35" rows="13" size="15" multiple>Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.
+ Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır..Bu sözleşmenin kopyasıdır.  Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır. 
+ Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.  Bu sözleşmenin kopyasıdır     
+                </textarea>
+                        
+                    
+            </fieldset>
+
+
+            <fieldset class="sayfa5"><legend>Mail Listesi</legend>
+                <input type="radio" name="liste" id="liste">
+                <label for="liste">Meil Listesine Katılmak İstiyorum</label><br>
+
+                <input type="radio" name="liste" id="liste">
+                <label for="liste">Meil Listesine Katılmak <u>İstemiyorum </u></label>
+                
+
+            </fieldset>
+
+        </div>
+
+
+    </form>
+    
+</body>
+</html>
